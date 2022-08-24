@@ -5,4 +5,5 @@ import com.neu.yygh.model.hosp.HospitalSet;
 
 public interface HospitalSetService extends IService<HospitalSet> {
 
+    HospitalSet getByHoscode(String hoscode);
 }

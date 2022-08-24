@@ -6,6 +6,8 @@
         <module>common</module>
         <module>model</module>
         <module>service</module>
+        <module>service_client</module>
+        <module>service_gateway</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -122,6 +124,13 @@
                 <groupId>joda-time</groupId>
                 <artifactId>joda-time</artifactId>
                 <version>${jodatime.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.alibaba/easyexcel -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>easyexcel</artifactId>
+                <version>2.1.1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
